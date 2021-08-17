@@ -1,0 +1,15 @@
+micronaut:
+  application:
+    name: carrosGrpcTesteIntegracao
+
+datasources:
+  default:
+    url: jdbc:mysql://localhost:3306/kotlin
+    driverClassName: com.mysql.cj.jdbc.Driver
+    username: root
+    password: mysql
+    dialect: MYSQL
+
+jpa.default.properties.hibernate.hbm2ddl.auto: update
+jpa.default.properties.hibernate.show_sql: true
+jpa.default.properties.hibernate.format_sql: true
